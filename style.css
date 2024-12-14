@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    background: url(./fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    max-width: 540px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: rgb(99, 25, 25);
+    height: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    height: 30px;
+}
+
+.picture {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: 600;
+    font-size: 2em;
+    margin: 16px 0;
+    color: bisque;
+}
+
+.description {
+    font-size: 1em;
+    color: rgb(228, 142, 208);
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    gap: 1.5em;
+}
+
+.list-item {
+    font-size: 1.2em;
+    height: 3em;
+    border-radius: 2em;
+    display: flex;
+    background-color: rgb(119, 15, 93);
+}
+
+.link {
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
+
+footer {
+    display: flex;
+    gap: 1.5em
+}
+
+.contact {
+    padding: 1em;
+    background-color: rgb(119, 15, 93);
+    border-radius: 50%;
+}
+
+@media screen and(min-width:815px) {
+    html{font-size: 20px;}
+    
+}
